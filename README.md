@@ -24,8 +24,8 @@ to figure out how their scripts work if you're not familiar with it.
 
 1. In your index.html page, you'll find two input fields. Use these to collect First Name and Last Name.
 2. Add a button to the index page that submits a query to Bloom API with the information currently in the First and Last Name fields.
-3. Write an AngularJS controller (in angular-proficiency.js, but you may use more files if you need) to handle querying the API. If you're feeling
-up to it, create a directive to replace the "Search" button that runs the search when clicked.
+3. Write an AngularJS controller (in angular-proficiency.js, but you may use more files if you need) to handle querying the API.
+   - If you're feeling up to it and want some bonus points, create a directive to replace the "Search" button that runs the search when clicked.
 4. Write markup in index.html to display the list of results retrieved from the Bloom API. This doesn't have to look perfect, but please don't just
 dump the response JSON into the page. For example, take the array of results and create a list (<ul><li><li><ul>) that displays First Name, Last Name,
 and some basic contact information.
