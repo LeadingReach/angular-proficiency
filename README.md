@@ -27,7 +27,7 @@ to figure out how their scripts work if you're not familiar with it.
 3. Write an AngularJS controller (in angular-proficiency.js, but you may use more files if you need) to handle querying the API.
    - If you're feeling up to it and want some bonus points, create a directive to replace the "Search" button that runs the search when clicked.
 4. Write markup in index.html to display the list of results retrieved from the Bloom API. This doesn't have to look perfect, but please don't just
-dump the response JSON into the page. For example, take the array of results and create a list (<ul><li><li><ul>) that displays First Name, Last Name,
+dump the response JSON into the page. For example, take the array of results and create a list that displays First Name, Last Name,
 and some basic contact information.
 
 
