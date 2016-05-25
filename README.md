@@ -15,7 +15,7 @@ controllers. We've also included Twitter Bootstrap (our CSS library of choice) i
 
 ### Test Instructions
 
-For this exercise, you'll be querying [Bloom API](http://bloomapi.com) (an API that uses the NPI database to find physician/provider data), and displaying the results in a list.
+For this exercise, you'll be querying [Bloom API](https://www.bloomapi.com/documentation/public-data/) (an API that uses the NPI database to find physician/provider data), and displaying the results in a list.
 
 LeadingReach uses Restangular for all of our REST calls, so you'll probably need to view their [docs](https://github.com/mgonto/restangular)
 to figure out how their scripts work if you're not familiar with it.
@@ -23,7 +23,7 @@ to figure out how their scripts work if you're not familiar with it.
 ####Requirements
 
 1. In your index.html page, you'll find two input fields. Use these to collect First Name and Last Name.
-2. Add a button to the index page that submits a query to Bloom API with the information currently in the First and Last Name fields.
+2. Add a button to the index page that submits a query to Bloom API to retrieve a list of providers from their usgov.hhs.npi Data Source with the information currently in the First and Last Name fields.
 3. Write an AngularJS controller (in angular-proficiency.js, but you may use more files if you need) to handle querying the API.
    - If you're feeling up to it and want some bonus points, create a directive to replace the "Search" button that runs the search when clicked.
 4. Write markup in index.html to display the list of results retrieved from the Bloom API. This doesn't have to look perfect, but please don't just
@@ -32,5 +32,4 @@ and some basic contact information.
 
 
 ####Submission
-When you've finished your application, please delete the vendor directory and zip up the rest of the contents into a .zip file and email it to
-dev@leadingreach.com
+When you've finished your application, please email us a link to your repository so we can take a look at your anuglar app!
